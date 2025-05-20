@@ -7,6 +7,14 @@ h3 {
   text-shadow: 0 0 8px;
 }
 
+img:hover {
+  width: 500px;
+  border: black dotted;
+}
+
+img {
+  width: 300px;
+}
 
 body {
   background-color: lightblue;
