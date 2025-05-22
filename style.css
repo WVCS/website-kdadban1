@@ -1,21 +1,36 @@
 h3 {
-  color: firebrick;
-  font-size: 40px;
-  text-decoration: black dotted underline;
+  color: black;
+  font-size: 48px;
+  text-decoration: black underline;
   letter-spacing: 2px;
   word-spacing: -2px;
   text-shadow: 0 0 8px;
 }
 
-img:hover {
-  width: 500px;
-  border: black dotted;
-}
-
-img {
-  width: 300px;
-}
-
 body {
-  background-color: lightblue;
+  background-color: #A9DEF9;
+}
+
+nav {
+  list-style-type: none;
+  width: 100%;
+  font-size: 22px;
+  background-color: #C7E8F9;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  float: right;
+  padding: 20px;
+}
+
+li a:hover {
+  border-style: dotted;
+  border-color: black;
+  background-color:#A6DCF7;
 }
